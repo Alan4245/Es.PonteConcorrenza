@@ -44,9 +44,11 @@ namespace Es.PonteConcorrenza
             Thread t1 = new Thread(new ThreadStart(AggiornaSemafori));
             Thread t2 = new Thread(new ThreadStart(AggiornaAutoInLista));
             Thread t3 = new Thread(new ThreadStart(MovimentoAutoVersoDestra));
+            Thread t4 = new Thread(new ThreadStart(MovimentoAutoVersoSinistra));
             t1.Start();
             t2.Start();
             t3.Start();
+            t4.Start();
         }
 
         private void btnAggiungiAutoSX_Click(object sender, RoutedEventArgs e)
@@ -175,6 +177,46 @@ namespace Es.PonteConcorrenza
                             }));
 
                             counterSX--;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        public void MovimentoAutoVersoSinistra()
+        {
+
+            while (true)
+            {
+                if (MainWindow.counterDX > 0)
+                {
+                    if (procediDX)
+                    {
+                        lock (x)
+                        {
+
+                            int posIniziale = 510;
+                            do
+                            {
+
+                                posIniziale--;
+                                this.Dispatcher.BeginInvoke(new Action(() =>
+                                {
+                                    imgDX.Margin = new Thickness(posIniziale, 90, 0, 0);
+                                }));
+                                Thread.Sleep(8);
+
+                            } while (posIniziale > 140);
+
+                            posIniziale = 510;
+                            this.Dispatcher.BeginInvoke(new Action(() =>
+                            {
+                                imgDX.Margin = new Thickness(posIniziale, 90, 0, 0);
+                            }));
+
+                            counterDX--;
                         }
                     }
                 }
