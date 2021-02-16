@@ -1,0 +1,15 @@
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\bin\Debug\Es.PonteConcorrenza.exe.config
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\bin\Debug\Es.PonteConcorrenza.exe
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\bin\Debug\Es.PonteConcorrenza.pdb
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.csprojAssemblyReference.cache
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\MainWindow.g.cs
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\App.g.cs
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza_MarkupCompile.cache
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza_MarkupCompile.lref
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\MainWindow.baml
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.g.resources
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.Properties.Resources.resources
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.csproj.GenerateResource.cache
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.csproj.CoreCompileInputs.cache
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.exe
+C:\Users\alanm\Documents\GitHubProgetti\Es.PonteConcorrenza\Es.PonteConcorrenza\obj\Debug\Es.PonteConcorrenza.pdb

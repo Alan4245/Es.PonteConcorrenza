@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Image x:Name="imgSfondo" HorizontalAlignment="Left" Height="305" VerticalAlignment="Top" Width="790" Source="sfondo.png"/>
+        <Image x:Name="imgSemaforoSX" HorizontalAlignment="Left" Height="75" Margin="160,15,0,0" VerticalAlignment="Top" Width="40" Source="semaforoROSSO.png"/>
+        <Image x:Name="imgSemaforoDX" HorizontalAlignment="Left" Height="75" Margin="495,10,0,0" VerticalAlignment="Top" Width="40" Source="semaforoROSSO.png"/>
+        <Label x:Name="lblAUTOSX" Content="                                  AGGIUNGI AUTO SX" HorizontalAlignment="Left" Height="30" Margin="15,310,0,0" VerticalAlignment="Top" Width="350"/>
+        <Label x:Name="lblAUTODX" Content="                                  AGGIUNGI AUTO DX" HorizontalAlignment="Left" Height="30" Margin="420,310,0,0" VerticalAlignment="Top" Width="350"/>
+        <TextBox x:Name="txtBoxInputSX" HorizontalAlignment="Left" Height="30" Margin="10,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnAggiungiAutoSX" Content="Aggiungi" HorizontalAlignment="Left" Height="30" Margin="170,380,0,0" VerticalAlignment="Top" Width="115" Click="btnAggiungiAutoSX_Click"/>
+        <Button x:Name="btnAggiungiAutoDX" Content="Aggiungi" HorizontalAlignment="Left" Height="30" Margin="665,380,0,0" VerticalAlignment="Top" Width="115" Click="btnAggiungiAutoDX_Click"/>
+        <TextBox x:Name="txtBoxInputDX" HorizontalAlignment="Left" Height="30" Margin="530,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="lblCounterSX" Content="" HorizontalAlignment="Left" Height="45" Margin="110,15,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="lblCounterDX" Content="" HorizontalAlignment="Left" Height="45" Margin="545,5,0,0" VerticalAlignment="Top" Width="45"/>
+        <Image x:Name="imgDX" HorizontalAlignment="Left" Height="45" Margin="510,90,0,0" VerticalAlignment="Top" Width="90" Source="car.png"/>
+        <Image x:Name="imgSX" HorizontalAlignment="Left" Height="45" Margin="100,125,0,0" VerticalAlignment="Top" Width="90" Source="carSpecchiata.png"/>
+
     </Grid>
 </Window>
