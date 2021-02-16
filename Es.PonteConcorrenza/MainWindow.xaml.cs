@@ -87,7 +87,6 @@ namespace Es.PonteConcorrenza
 
         public void AggiornaSemafori()
         {                    
-
             while (true)
             {
 
@@ -146,8 +145,7 @@ namespace Es.PonteConcorrenza
         }
 
         public void MovimentoAutoVersoDestra()
-        {
-            
+        {           
             while (true)
             {
                 if(MainWindow.counterSX > 0)
@@ -180,14 +178,10 @@ namespace Es.PonteConcorrenza
                         }
                     }
                 }
-
             }
-
         }
-
         public void MovimentoAutoVersoSinistra()
         {
-
             while (true)
             {
                 if (MainWindow.counterDX > 0)
@@ -196,7 +190,6 @@ namespace Es.PonteConcorrenza
                     {
                         lock (x)
                         {
-
                             int posIniziale = 510;
                             do
                             {
@@ -220,9 +213,7 @@ namespace Es.PonteConcorrenza
                         }
                     }
                 }
-
             }
-
         }
     }
 }
