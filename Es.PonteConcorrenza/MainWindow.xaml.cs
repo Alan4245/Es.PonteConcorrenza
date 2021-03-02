@@ -32,6 +32,7 @@ namespace Es.PonteConcorrenza
         public static object x = new object();
         public static bool procediSX = false;
         public static bool procediDX = false;
+        public int posIniziale;
 
         public MainWindow()
         {
@@ -155,7 +156,7 @@ namespace Es.PonteConcorrenza
                         lock (x)
                         {
                            
-                            int posIniziale = 100;
+                            posIniziale = 100;
                             do
                             {
 
@@ -190,7 +191,7 @@ namespace Es.PonteConcorrenza
                     {
                         lock (x)
                         {
-                            int posIniziale = 510;
+                            posIniziale = 510;
                             do
                             {
 
